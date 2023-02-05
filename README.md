@@ -1,2 +1,2 @@
 # USC-CSCI-585
-Coursework for USC's CSCI 585 done by Jonathan Sun.
+Homework 1 was about designing an (E)ER Diagram for YouTube. 
