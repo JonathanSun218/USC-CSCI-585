@@ -37,3 +37,13 @@ Diagram Explanation:
 	The Comments entity can be recursive because each comment can have replies.
 	Therefore, the Comments entity also has a unary relationship.
 	There has to be one main comment for there to be more comments (replies).
+
+Relationship Table (Entity, Relationship, Connectivity, Entity):
+	VIDEO CONSUMER		can have 	1:M 	SUBSCRIPTION
+	CHANNEL 		offers		1:M 	SUBSCRIPTION
+	CHANNEL			contains	1:M	VIDEO
+	VIDEO CREATOR		manages		1:M	CHANNEL
+	VIDEO			can have	1:M	SPONSOR
+	VIDEO			must have	1:1	STATISTICS
+	VIDEO			contains	1:M	COMMENTS
+	COMMENTS		can have	1:M	COMMENTS
