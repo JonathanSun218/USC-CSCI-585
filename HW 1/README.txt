@@ -10,6 +10,7 @@ Assumptions:
 	We assume that videos can have 0 sponsors.
 	We assume taht videos must have statistics.
 	We assume that videos can have 0 comments.
+	We assume that there has to be one comment to have more comments.
 
 Diagram Explanation:
 	We start at the User entity. It branches into two subtypes: Video Consumer and Video Creator.
@@ -34,3 +35,4 @@ Diagram Explanation:
 
 	The Comments entity can be recursive because each comment can have replies.
 	Therefore, the Comments entity also has a unary relationship.
+	There has to be one main comment for there to be more comments (replies).
