@@ -11,6 +11,7 @@ Assumptions:
 	We assume taht videos must have statistics.
 	We assume that videos can have 0 comments.
 	We assume that there has to be one comment to have more comments.
+	We assume that comments can have 0 comments.
 
 Diagram Explanation:
 	We start at the User entity. It branches into two subtypes: Video Consumer and Video Creator.
